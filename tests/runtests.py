@@ -25,8 +25,8 @@ else:
     from django.test.selenium import SeleniumTestCaseBase
     from django.test.utils import NullTimeKeeper, TimeKeeper, get_runner
     from django.utils.deprecation import (
-        RemovedInDjango40Warning, RemovedInDjango41Warning,
-    )
+      RemovedInDjango40Warning, RemovedInDjango41Warning,
+   )
     from django.utils.log import DEFAULT_LOGGING
     from django.utils.version import PY37
 
